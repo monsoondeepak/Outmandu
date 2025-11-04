@@ -7,7 +7,7 @@ export const products = [
     description: "Noise-cancellation, 40-hour battery",
     rating: 4.5,
     price: "$299.99",
-    imgSrc: assets.apple_earphone_image,
+    imgSrc: assets.popular1,
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const products = [
     description: "Fitness Tracking, AMOLED Display",
     rating: 4.5,
     price: "$799.99",
-    imgSrc: assets.samsung_s23phone_image,
+    imgSrc: assets.popular1,
   },
   {
     id: 4,

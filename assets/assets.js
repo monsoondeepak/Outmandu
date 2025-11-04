@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import search_icon from "./search_icon.svg";
 import user_icon from "./user_icon.svg";
 import cart_icon from "./cart_icon.svg";
@@ -20,9 +20,11 @@ import heart_icon from "./heart_icon.svg";
 import star_icon from "./star_icon.svg";
 import redirect_icon from "./redirect_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
-import header_headphone_image from "./header_headphone_image.png";
-import header_playstation_image from "./header_playstation_image.png";
-import header_macbook_image from "./header_macbook_image.png";
+import top1 from "./top1.jpg"
+import top2 from "./top2.jpg";
+import top3 from "./top3.jpg";
+import top4 from "./top4.jpg";
+import top5 from "./top5.jpg";
 import macbook_image from "./macbook_image.png";
 import bose_headphone_image from "./bose_headphone_image.png";
 import apple_earphone_image from "./apple_earphone_image.png";
@@ -34,14 +36,18 @@ import sony_airbuds_image from "./sony_airbuds_image.png";
 import asus_laptop_image from "./asus_laptop_image.png";
 import projector_image from "./projector_image.png";
 import playstation_image from "./playstation_image.png";
-import girl_with_headphone_image from "./girl_with_headphone_image.png";
+import ifeeltower from "./ifeeltower.png";
 import girl_with_earphone_image from "./girl_with_earphone_image.png";
 import md_controller_image from "./md_controller_image.png";
 import sm_controller_image from "./sm_controller_image.png";
 import jbl_soundbox_image from "./jbl_soundbox_image.png";
 import boy_with_laptop_image from "./boy_with_laptop_image.png";
 import checkmark from "./checkmark.png";
-import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
+import popular1 from "./popular1.jpg";
+import walkgirl from "./walkgirl.jpg";
+import TilichoLake from "./TilichoLake.png"
+import TravelBanner from "./TravelBanner.png"
+import Plane from "./plane.png"
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
 import product_details_page_apple_earphone_image3 from "./product_details_page_apple_earphone_image3.png";
 import product_details_page_apple_earphone_image4 from "./product_details_page_apple_earphone_image4.png";
@@ -70,9 +76,11 @@ export const assets = {
   star_icon,
   redirect_icon,
   star_dull_icon,
-  header_headphone_image,
-  header_playstation_image,
-  header_macbook_image,
+  top1,
+  top2,
+  top3,
+  top4,
+  top5,
   macbook_image,
   bose_headphone_image,
   apple_earphone_image,
@@ -84,13 +92,17 @@ export const assets = {
   asus_laptop_image,
   projector_image,
   playstation_image,
-  girl_with_headphone_image,
+  ifeeltower,
   girl_with_earphone_image,
   md_controller_image,
   sm_controller_image,
   jbl_soundbox_image,
   boy_with_laptop_image,
-  product_details_page_apple_earphone_image1,
+  popular1,
+  walkgirl,
+  TilichoLake,
+  Plane,
+  TravelBanner,
   product_details_page_apple_earphone_image2,
   product_details_page_apple_earphone_image3,
   product_details_page_apple_earphone_image4,
@@ -134,143 +146,171 @@ export const productsDummyData = [
   {
     "_id": "67a1f4e43f34a77b6dde9144",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Apple AirPods Pro 2nd gen",
-    "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
-    "price": 499.99,
-    "offerPrice": 399.99,
+    "name": "The Taj Mahal Eternal Symbol of Love and Architectural Splendor",
+    "description": "The Taj Mahal in Agra, India, is a stunning white marble mausoleum built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal. A UNESCO World Heritage Site, it is celebrated worldwide as a timeless symbol of love and one of the finest examples of Mughal architecture.",
+    "price": 1699.99,
+    "offerPrice": 1599.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Taj_Mahal_%287113248335%29.jpg/500px-Taj_Mahal_%287113248335%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/500px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Dome_Chhatris_Spires_-_Taj_Mahal_-_Agra_2014-05-14_3805.JPG/330px-Dome_Chhatris_Spires_-_Taj_Mahal_-_Agra_2014-05-14_3805.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Taj_Mahal_9794.jpg/500px-Taj_Mahal_9794.jpg"
     ],
-    "category": "Earphone",
+    "country":"India",
+    "touristsite": "Historic",
+  
     "date": 1738667236865,
     "__v": 0
   },
   {
     "_id": "67a1f52e3f34a77b6dde914a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Bose QuietComfort 45",
-    "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
-    "price": 429.99,
-    "offerPrice": 329.99,
+    "name": "Angkor Wat – The Majestic Heart of Cambodia",
+    "description": "Angkor Wat, located in Siem Reap, Cambodia, is the world’s largest religious monument and a masterpiece of Khmer architecture. Built in the 12th century by King Suryavarman II, it was originally dedicated to the Hindu god Vishnu and later became a Buddhist temple. Surrounded by grand moats and adorned with intricate carvings, Angkor Wat stands as a symbol of Cambodia’s heritage, spirituality, and timeless beauty.",
+    "price": 1829.99,
+    "offerPrice": 1729.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/500px-20171126_Angkor_Wat_4712_DxO.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Angkor_Wat_005.jpg/500px-Angkor_Wat_005.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Angkor_Vat_%286931599619%29.jpg/500px-Angkor_Vat_%286931599619%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Statue_in_Cambodia.jpg/500px-Statue_in_Cambodia.jpg"
     ],
-    "category": "Headphone",
+    "country":"Combodia",
+    "touristsite": "Historic and Cultural",
     "date": 1738667310300,
     "__v": 0
   },
   {
     "_id": "67a1f5663f34a77b6dde914c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Galaxy S23",
-    "description": "The Samsung Galaxy S23 offers an all-encompassing mobile experience with its advanced AMOLED display, offering vibrant visuals and smooth interactions. Equipped with top-of-the-line fitness tracking features and cutting-edge technology, this phone delivers outstanding performance. With powerful hardware, a sleek design, and long battery life, the S23 is perfect for those who demand the best in mobile innovation.",
-    "price": 899.99,
-    "offerPrice": 799.99,
+    "name": "Mount Fuji – Japan’s Sacred Icon",
+    "description": "Mount Fuji, Japan’s highest peak, is a majestic volcanic mountain known for its near-perfect cone shape. Located near Tokyo, it is both a UNESCO World Heritage Site and a symbol of Japan’s natural beauty and spiritual significance, inspiring countless works of art, poetry, and pilgrimage.",
+    "price": 8899.99,
+    "offerPrice": 8799.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Mt.Fuji_Shizuoka_Airport.jpg/500px-Mt.Fuji_Shizuoka_Airport.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mount_Fuji_from_Omiya_by_Kusakabe_Kimbei_c1890.png/500px-Mount_Fuji_from_Omiya_by_Kusakabe_Kimbei_c1890.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mt_Fuji_Summit.jpg/500px-Mt_Fuji_Summit.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Torii_near_the_summit_of_mount_Fuji_2015.jpg/500px-Torii_near_the_summit_of_mount_Fuji_2015.jpg"
     ],
-    "category": "Smartphone",
+    "country": "Japan",
+    "touristsite":"Natural",
     "date": 1738667366224,
     "__v": 0
   },
   {
     "_id": "67a1f5993f34a77b6dde914e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Garmin Venu 2",
-    "description": "The Garmin Venu 2 smartwatch blends advanced fitness tracking with sophisticated design, offering a wealth of features such as heart rate monitoring, GPS, and sleep tracking. Built with a 24-hour battery life, this watch is ideal for fitness enthusiasts and anyone looking to enhance their daily lifestyle. With a stunning AMOLED display and customizable watch faces, the Venu 2 combines technology with style seamlessly.",
-    "price": 399.99,
-    "offerPrice": 349.99,
+    "name": "The Great Wall of China – A Monument of Strength and History",
+    "description": "The Great Wall of China stretches over rugged mountains and vast plains, symbolizing the enduring strength and ingenuity of ancient China. Built over centuries to protect the empire from invasions, it stands today as one of the world’s most remarkable architectural achievements and a UNESCO World Heritage Site.",
+    "price": 3999.99,
+    "offerPrice": 3499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
-    ],
-    "category": "Earphone",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/500px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20090529_Great_Wall_8185.jpg/500px-20090529_Great_Wall_8185.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/The_Great_wall_-_by_Hao_Wei.jpg/330px-The_Great_wall_-_by_Hao_Wei.jpg",
+  ],
+    "country": "China",
+    "touristsite":"Historic",
     "date": 1738667417511,
     "__v": 0
   },
   {
     "_id": "67a1f5ef3f34a77b6dde9150",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "PlayStation 5",
-    "description": "The PlayStation 5 takes gaming to the next level with ultra-HD graphics, a powerful 825GB SSD, and ray tracing technology for realistic visuals. Whether you're into high-action games or immersive storytelling, the PS5 delivers fast loading times, seamless gameplay, and stunning visuals. It's a must-have for any serious gamer looking for the ultimate gaming experience.",
-    "price": 599.99,
-    "offerPrice": 499.99,
+    "name": "Mount Everest – The Roof of the World",
+    "description": "Mount Everest, rising 8,848 meters above sea level in the Himalayas, is the highest mountain on Earth. Straddling the border of Nepal and China (Tibet), it draws adventurers from around the globe seeking to conquer its icy peaks and experience its awe-inspiring beauty.",
+    "price": 5999.99,
+    "offerPrice": 4599.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/500px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Everest_Base_Camp_on_a_Stormy_Day.jpg/500px-Everest_Base_Camp_on_a_Stormy_Day.jpg",
     ],
-    "category": "Accessories",
+    "country": "Nepal",
+    "touristsite":"Natural",
     "date": 1738667503075,
     "__v": 0
   },
   {
     "_id": "67a1f70c3f34a77b6dde9156",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Canon EOS R5",
-    "description": "The Canon EOS R5 is a game-changing mirrorless camera with a 45MP full-frame sensor, offering ultra-high resolution and the ability to shoot 8K video. Whether you're capturing professional-quality stills or cinematic video footage, this camera delivers exceptional clarity, speed, and color accuracy. With advanced autofocus and in-body stabilization, the R5 is ideal for photographers and videographers alike.",
+    "name": "Lumbini – The Sacred Birthplace of Buddha",
+    "description": "Lumbini, located in Nepal, is the revered birthplace of Siddhartha Gautama, who became the Buddha. A UNESCO World Heritage Site, it is a peaceful pilgrimage destination filled with ancient monasteries, sacred gardens, and the famous Maya Devi Temple, symbolizing serenity and spiritual enlightenment.",
     "price": 4199.99,
     "offerPrice": 3899.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BRP_Lumbini_Mayadevi_temple.jpg/500px-BRP_Lumbini_Mayadevi_temple.jpg",
+      
     ],
-    "category": "Camera",
+    "country": "Nepal",
+    "touristsite":"Cultural",
     "date": 1738667788883,
     "__v": 0
   },
   {
     "_id": "67a1f7c93f34a77b6dde915a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "MacBook Pro 16",
-    "description": "The MacBook Pro 16, powered by Apple's M2 Pro chip, offers outstanding performance with 16GB RAM and a 512GB SSD. Whether you're editing high-resolution video, developing software, or multitasking with ease, this laptop can handle the toughest tasks. It features a stunning Retina display with True Tone technology, making it a top choice for professionals in creative industries or anyone who demands premium performance in a portable form.",
+    "name": "Victoria Falls – The Smoke That Thunders",
+    "description": "Victoria Falls, located on the border of Zambia and Zimbabwe, is one of the world’s largest and most spectacular waterfalls. Known locally as “Mosi-oa-Tunya” meaning “The Smoke That Thunders,” its powerful cascade and mist create a breathtaking natural wonder and a UNESCO World Heritage Site.",
     "price": 2799.99,
     "offerPrice": 2499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Victoria_Falls_gorge1.jpg/500px-Victoria_Falls_gorge1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victoria_Falls_from_the_air_1972.jpg/500px-Victoria_Falls_from_the_air_1972.jpg",
     ],
-    "category": "Laptop",
+    "country": "Zambia and Zimbabwe",
+    "touristsite":"Natural",
     "date": 1738667977644,
     "__v": 0
   },
   {
     "_id": "67a1f8363f34a77b6dde915c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Sony WF-1000XM5",
-    "description": "Sony WF-1000XM5 true wireless earbuds deliver immersive sound with Hi-Res Audio and advanced noise cancellation technology. Designed for comfort and quality, they provide a stable, snug fit for a secure listening experience. Whether you're working out or traveling, these earbuds will keep you connected with the world around you while enjoying rich, clear sound.",
-    "price": 349.99,
-    "offerPrice": 299.99,
+    "name": "The Pyramids of Egypt – Timeless Wonders of the Nile",
+    "description": "The Pyramids of Egypt, located in Giza, are monumental tombs built for ancient pharaohs over 4,000 years ago. Famous for their precise architecture and enduring mystery, they stand as iconic symbols of ancient Egyptian civilization and are a UNESCO World Heritage Site.",
+    "price": 4349.99,
+    "offerPrice": 4299.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/330px-All_Gizah_Pyramids.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Djoser_IMG_0960.JPG/330px-Djoser_IMG_0960.JPG",
     ],
-    "category": "Earphone",
+    "country": "Egypt",
+    "touristsite":"Historic",
     "date": 1738668086331,
     "__v": 0
   },
   {
     "_id": "67a1f85e3f34a77b6dde915e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Projector 4k",
-    "description": "The Samsung 4K Projector offers an immersive cinematic experience with ultra-high-definition visuals and realistic color accuracy. Equipped with a built-in speaker, it delivers rich sound quality to complement its stunning 4K resolution. Perfect for movie nights, gaming, or presentations, this projector is the ultimate choice for creating an at-home theater experience or professional setting.",
-    "price": 1699.99,
-    "offerPrice": 1499.99,
+    "name": "Iguazu Falls – Nature’s Majestic Waterfall",
+    "description": "Iguazu Falls, located on the border of Argentina and Brazil, is a spectacular series of waterfalls surrounded by lush rainforest. Renowned for its immense power and breathtaking beauty, it is a UNESCO World Heritage Site and one of the most awe-inspiring natural wonders in the world.",
+    "price": 2599.99,
+    "offerPrice": 2399.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/CATARATAS_DEL_IGUAZU._GARGANTA_DEL_DIABLO.jpg/500px-CATARATAS_DEL_IGUAZU._GARGANTA_DEL_DIABLO.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cataratas_Iguazu_vista_general.JPG/500px-Cataratas_Iguazu_vista_general.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ant%C3%B4nio_Parreiras_-_Cataratas_do_Igua%C3%A7u.jpg"
     ],
-    "category": "Accessories",
+    "country": "Argentina and Brazil",
+    "touristsite":"Natural",
     "date": 1738668126660,
     "__v": 0
   },
   {
     "_id": "67a1fa4b3f34a77b6dde9166",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "ASUS ROG Zephyrus G16",
-    "description": "The ASUS ROG Zephyrus G16 gaming laptop is powered by the Intel Core i9 processor and features an RTX 4070 GPU, delivering top-tier gaming and performance. With 16GB of RAM and a 1TB SSD, this laptop is designed for gamers who demand extreme power, speed, and storage. Equipped with a stunning 16-inch display, it's built to handle the most demanding titles and applications with ease.",
+    "name": "Historic Sanctuary of Machu Picchu",
+    "description": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.",
     "price": 2199.99,
     "offerPrice": 1999.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
+      popular1,
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/1200px-Machu_Picchu%2C_2023_%28012%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG/500px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_47.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Andenes_at_Machu_Picchu_%28cropped%29.jpg/500px-Andenes_at_Machu_Picchu_%28cropped%29.jpg"
     ],
-    "category": "Laptop",
+    "touristsite" :"Historic",
+    "country": "Peru",
     "date": 1738668619198,
     "__v": 0
   }

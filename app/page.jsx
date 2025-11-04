@@ -3,6 +3,8 @@ import React from "react";
 import HeaderSlider from "@/components/HeaderSlider";
 import HomeProducts from "@/components/HomeProducts";
 import Banner from "@/components/Banner";
+import Hero from "@/components/Hero";
+import MobileApp from "@/components/MobileApp";
 import NewsLetter from "@/components/NewsLetter";
 import FeaturedProduct from "@/components/FeaturedProduct";
 import Navbar from "@/components/Navbar";
@@ -17,6 +19,8 @@ const Home = () => {
         <HomeProducts />
         <FeaturedProduct />
         <Banner />
+        <Hero />
+        <MobileApp />
         <NewsLetter />
       </div>
       <Footer />

@@ -94,20 +94,21 @@ const Product = () => {
                     <div className="overflow-x-auto">
                         <table className="table-auto border-collapse w-full max-w-72">
                             <tbody>
-                                <tr>
-                                    <td className="text-gray-600 font-medium">Brand</td>
-                                    <td className="text-gray-800/50 ">Generic</td>
-                                </tr>
-                                <tr>
-                                    <td className="text-gray-600 font-medium">Color</td>
-                                    <td className="text-gray-800/50 ">Multi</td>
-                                </tr>
-                                <tr>
-                                    <td className="text-gray-600 font-medium">Category</td>
+                                 <tr>
+                                    <td className="text-gray-600 font-medium">Country</td>
                                     <td className="text-gray-800/50">
-                                        {productData.category}
+                                        {productData.country}
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td className="text-gray-600 font-medium">Tourist Site</td>
+                                    <td className="text-gray-800/50 ">{productData.touristsite}</td>
+                                </tr>
+                                <tr>
+                                    <td className="text-gray-600 font-medium">Guide</td>
+                                    <td className="text-gray-800/50 ">Available</td>
+                                </tr>
+                               
                             </tbody>
                         </table>
                     </div>
@@ -117,7 +118,7 @@ const Product = () => {
                             Add to Cart
                         </button>
                         <button onClick={() => { addToCart(productData._id); router.push('/cart') }} className="w-full py-3.5 bg-orange-500 text-white hover:bg-orange-600 transition">
-                            Buy now
+                            Explore now
                         </button>
                     </div>
                 </div>
