@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+import connectDB from "@/lib/mongodb";
 
 let cached = global.mongoose
 
