@@ -23,7 +23,7 @@ const HeaderSlider = () => {
     },
     {
       id: 3,
-      title: "Generation Meets Elegance - African tribe is Here for you!",
+      title: "Visit More Than Peaks — A World of Culture and Calm.",
       offer: "Exclusive Deal 40% Off",
       buttonText1: "Explore Now",
       buttonText2: "Learn More",
