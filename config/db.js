@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import connectDB from "@/lib/mongodb";
 
 let cached = global.mongoose
 
@@ -8,7 +7,7 @@ if(!cached){
 
 }
 
-async function connection(){
+async function connectDB(){
     if(cached.conn){
         return cached.conn
     }
@@ -16,9 +15,12 @@ async function connection(){
         const opts ={
             bufferCommands:false
         }
-        cached.promise = (await mongoose.connect(`${process.env.MONGODB_URI}/Deepak_Kunwar`, opts)).isObjectIdOrHexString(mongoose =>{
+        cached.promise = mongoose.connect(`${process.env.MONGODB_URI}/outmandu`,opts).then( mongoose => {
             return mongoose
         })
+        
+    
+        
 
     }
 
