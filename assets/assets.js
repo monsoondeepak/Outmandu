@@ -334,8 +334,8 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+          "name": "Lumbini",
+          "description" : "Hello Nepal",
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
@@ -344,7 +344,7 @@ export const orderDummyData = [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
           ],
-          "category": "Earphone",
+          "category": "Destination",
           "date": 1738667236865,
           "__v": 0
         },
@@ -356,7 +356,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Deepak Kunwar",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -376,7 +376,7 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f52e3f34a77b6dde914a",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Bose QuietComfort 45",
+          "name": "Kathmandu",
           "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
           "price": 429.99,
           "offerPrice": 329.99,
@@ -395,7 +395,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Dikshya",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -415,8 +415,8 @@ export const orderDummyData = [
         "product": {
           "_id": "67a1f4e43f34a77b6dde9144",
           "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-          "name": "Apple AirPods Pro",
-          "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+          "name": "Mustang",
+          "description": "Hello Mustang",
           "price": 499.99,
           "offerPrice": 399.99,
           "image": [
@@ -425,7 +425,7 @@ export const orderDummyData = [
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667238/niw7tqxvjsxt7wcehxeo.png",
             "https://res.cloudinary.com/djbvf02yt/image/upload/v1738667237/h8cq4x9cfzqzwaiarvpk.png"
           ],
-          "category": "Earphone",
+          "category": "Destination",
           "date": 1738667236865,
           "__v": 0
         },
@@ -437,7 +437,7 @@ export const orderDummyData = [
     "address": {
       "_id": "67a1e4233f34a77b6dde9055",
       "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-      "fullName": "GreatStack",
+      "fullName": "Bindu Kunwar",
       "phoneNumber": "0123456789",
       "pincode": 654321,
       "area": "Main Road , 123 Street, G Block",
@@ -455,7 +455,7 @@ export const addressDummyData = [
   {
     "_id": "67a1e4233f34a77b6dde9055",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "fullName": "GreatStack",
+    "fullName": "Ram",
     "phoneNumber": "0123456789",
     "pincode": 654321,
     "area": "Main Road , 123 Street, G Block",
