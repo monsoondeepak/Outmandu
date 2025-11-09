@@ -2,8 +2,6 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FiMapPin, FiSearch, FiSliders } from "react-icons/fi";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const hotels = [
   {
@@ -81,7 +79,6 @@ export default function HotelExplorePage() {
 
   return (
         <>
-        <Navbar/>
          <div className="flex flex-col items-center mt-10">
         <p className="text-3xl font-medium">Featured Hotel</p>
         <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
@@ -214,7 +211,6 @@ export default function HotelExplorePage() {
         )}
       </main>
     </div>
-    <Footer/>
           </>
   );
 }

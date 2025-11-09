@@ -1,5 +1,5 @@
 import { Inngest } from "inngest";
-import connectDB from "./db";
+import { connectDB } from "@/lib/mongodb";
 import User from "@/models/user";
 
 

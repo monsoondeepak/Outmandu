@@ -3,6 +3,7 @@ import "./globals.css";
 import { AppContextProvider } from "@/context/AppContext";
 import { Toaster } from "react-hot-toast";
 import { ClerkProvider } from "@clerk/nextjs";
+import { AuthProvider } from "./Provider";
 
 const outfit = Nunito({ subsets: ['latin'], weight: ["300", "400", "500"] })
 
@@ -18,8 +19,9 @@ export default function RootLayout({ children }) {
         <body className={`${outfit.className} antialiased text-gray-700`} >
           <Toaster />
           <AppContextProvider>
-            {children}
+            <AuthProvider>{children}</AuthProvider>
           </AppContextProvider>
+        
         </body>
       </html>
       </ClerkProvider>

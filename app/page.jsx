@@ -9,6 +9,9 @@ import NewsLetter from "@/components/NewsLetter";
 import FeaturedProduct from "@/components/FeaturedProduct";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import HotelBookingPage from "@/components/HotelPage";
+import CarExplorePage from "@/components/CarPage";
+import InternetPackagesPage from "@/components/InternetPage";
 
 const Home = () => {
   return (
@@ -18,6 +21,9 @@ const Home = () => {
         <HeaderSlider />
         <HomeProducts />
         <FeaturedProduct />
+        <HotelBookingPage/>
+        <CarExplorePage/>
+        <InternetPackagesPage/>
         <Banner />
         <Hero />
         <MobileApp />

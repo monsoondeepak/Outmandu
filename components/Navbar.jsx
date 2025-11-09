@@ -28,6 +28,7 @@ const Navbar = () => {
         <Link href="/hotel" className="hover:text-gray-500 transition">Hotel</Link>
         <Link href="/car" className="hover:text-gray-500 transition">Car</Link>
         <Link href="/internet" className="hover:text-gray-500 transition">Internet</Link>
+         <Link href="/flights" className="hover:text-gray-500 transition">Flights</Link>
         <Link href="/exchange" className="hover:text-gray-500 transition">Exchange</Link>
 
         {isSeller && (
@@ -40,18 +41,22 @@ const Navbar = () => {
         )}
       </div>
 
+      
+
       {/* Desktop Search & Account */}
       <ul className="hidden md:flex items-center gap-4">
         <Image className="w-4 h-4" src={assets.search_icon} alt="search icon" />
         <SignedOut>
+          <Link href="/register">
           <button
-            onClick={() => openSignIn({})}
+            
             className="flex items-center gap-2 hover:text-gray-900 transition"
-          >
+            >
             <Image src={assets.user_icon} alt="user icon" />
             {/* Only show "Account" on md and larger */}
             <span className="hidden md:inline">Account</span>
           </button>
+            </Link>
         </SignedOut>
         <SignedIn>
   <UserButton afterSignOutUrl="/">
@@ -85,12 +90,15 @@ const Navbar = () => {
 
         {/* Only show user icon without "Account" */}
         <SignedOut>
+          <Link href="/register">
+          
           <button
-            onClick={() => openSignIn({})}
-            className="hover:text-gray-900 transition"
-          >
+           
+           className="hover:text-gray-900 transition"
+           >
             <Image src={assets.user_icon} alt="user icon" className="w-6 h-6" />
           </button>
+            </Link>
         </SignedOut>
 
          <SignedIn>
